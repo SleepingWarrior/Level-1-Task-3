@@ -1,0 +1,100 @@
+p {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-left: 0.5rem
+}
+
+.btn {
+    margin-left: 0.5rem
+}
+
+input {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    width: 10%;
+    display: inline-block;
+}
+
+.form-select {
+    width: 10%;
+    display: inline-block;
+}
+
+/* ===========================Task 3 - Calculator Design============================================== */
+/* Styling Calculator */
+
+.calculator-grid {
+    display: grid;
+    background-color: darkseagreen;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 80px);
+    border: solid 1px white;
+}
+
+/* ================================== */
+/* Display Screen Styling */
+.display-screen {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    grid-column: 1/-1;
+    text-align: right;
+    height: 100px;
+}
+
+#displayScreen2 {
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+
+}
+
+#displayScreen1 {
+    font-size: 30px;
+    padding-top: 0;
+    padding-right: 5px;
+    font-size: 50px;
+}
+
+#displayScreen3 {
+    font-size: 30px;
+    padding-top: 0;
+    padding-right: 5px;
+    font-size: 50px;
+}
+
+/* ================================= */
+/* Button Styling */
+.calcButn {
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+    font-size: large;
+}
+
+.btn-operator {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-numerical {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.calcButn:hover,
+.btn-operator:hover {
+    cursor: pointer;
+    background-color: royalblue;
+}
+
+.btn-equal {
+    background-color: salmon;
+}
